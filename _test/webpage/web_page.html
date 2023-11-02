@@ -1,0 +1,49 @@
+<!--
+    <tag 속성="값" 속성 값>
+        태그가 동작되는 영역
+    </tag>
+    
+    HTML  : 웹사이트의 뼈대 
+    CSS   : 웹사이트의 모양
+    JS    : 웹사이트의 동적처리
+
+    HTML 하나의 요소 -> DOM (Document Object Model)
+-->
+
+<html>
+    <!-- 문서의 정보를 담는 영역 -->
+    <head>
+        <title>Hello ! Bear-U !</title>
+        <link rel="stylesheet" type="text/css" href="web_page.css"/>
+        <!--style> // CSS
+        </style-->
+    </head>
+
+    <!-- 문서의 정보를 담는 영역 -->
+    <body>
+        <p class="content" id="content"> <!-- style="white-space: pre-wrap;" id=123"" -->
+            HTML is Hyper Text Markup Language
+            HTML은 웹상에서 문서를 서로 교환하기 위해 만들어짐
+
+            이름의 약자에서 Hyper Text라는 단어는 Hyper Link
+            를 통해 즉시 다른 문서로 접근을 할 수 있는 텍스트
+
+            그래서 과거 HTML은 그냥 문서에 파란색 하이퍼 링크로 문서들을 볼 수 있는게 전부
+            하지만 점점 웹이 발전함으로써 
+
+            - 모양과 애니메이션을 문서에 표현할 수 있는 CSS
+            - 문서에 동적인 요소를 만들어주는 Java Script
+
+            역시 같이 발전하게 됨
+        </p>
+
+        <button id="red_btn"> 빨간 버튼 </button>
+        <button id="blue_btn"> 파란 버튼 </button>
+        <button id="green_btn"> 초록 버튼 </button>
+
+        <!--script> 
+            // JavaScript
+        </script-->
+        <script src="web_page.js"></script>
+    </body>
+</html>
